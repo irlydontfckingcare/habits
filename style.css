@@ -1,9 +1,11 @@
 body {
-    background-color:rgba(142, 187, 112, 0.671)
+    background-color:lightcyan
 }
-button	{
-    background-color:aquamarine
+
+button {
+    background-color:lightblue
 }
+
 #habit-input {
-    background-color: rgb(255, 251, 0);
+    background-color:rgb(241, 241, 241)
 }
