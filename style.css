@@ -1,11 +1,70 @@
 body {
-    background-color:lightcyan
+    background-color: black;
 }
 
 button {
-    background-color:lightblue
+    background-color: lightblue
 }
 
-#habit-input {
-    background-color:rgb(241, 241, 241)
+.grid-container {
+    display: grid;
+    grid-template-columns: auto 80% auto;
+    padding: 5px;
+}
+
+.grid-item {
+    /* background-color: rgba(255, 255, 255, 0.8); */
+    border: 0px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    margin: 2px;
+}
+
+#app-grid-item {
+    background-color: #fff9db;
+    border-radius: 15px;
+    height: 800px;
+    width: 100%;
+    margin: 0%;
+    border: 0px;
+    padding: 0%;
+}
+
+#menu-grid-item {
+    background-color: #ffec99;
+    margin: 0% 5% 0% 5%;
+    border-radius: 15px;
+}
+
+#content-grid-item {
+    /* background-color: #177e79; */
+    margin: 0% 5% 0% 5%;
+    border-radius: 15px;
+    height: 78%;
+}
+
+#header-content-item {
+    background-color: chocolate;
+}
+
+#daytime-content-item {
+    background-color: rgb(117, 57, 14);
+    height: 7%;
+}
+
+#select-content-item {
+    background-color: ghostwhite;
+    height: 69%
+}
+#confirm-content-item {
+    background-color: red;
+}
+#confirmButton {
+    height: 40px;
+    width: 340px;
+    border-radius: 20px;
+}
+.daytime-button {
+    border-radius: 50%;
 }

@@ -10,11 +10,47 @@
 </head>
 
 <body>
-    <h1>Deine Habit-Tracker</h1>
-    <br>
-    <h2>Deine Gewohnheiten</h2>
-    <label>Habit:</label>
-    <input type="text" placeholder="schreib ma" id="habit-input" maxlength="25"></textarea>
-    <button onclick="alerta()">Save</button>
+    <div class="grid-container">
+        <div class="grid-item"></div>
+        <div class="grid-item"></div>
+        <div class="grid-item"></div>
+        <div class="grid-item"></div>
+        <div class="grid-item" id="app-grid-item">
+
+            <div id="menu-grid-item">
+                <h1>Habit</h1>
+            </div>
+
+            <div class="app-grid-item content-container" id="content-grid-item">
+                <div id="header-content-item">
+                    <label>Neues habit hinzufügen:</label>
+                </div>
+                <div id="daytime-content-item">
+                    <button class="daytime-button" onclick="alerta()">☀️</button>
+                    <button class="daytime-button">🌙</button>
+                </div>
+
+                <div id="select-content-item">
+                    <select>
+                        <option value="lesen">Lesen!</option>
+                        <option value="laufen">Laufen!</option>
+                        <option value="rauchen">Rauchen!</option>
+                        <option value="trinken">Trinken!</option>
+                        <option value="radfahren">Radfahren!</option>
+                    </select>
+                </div>
+                <div id="confirm-content-item">
+                    <button id="confirmButton">Mit habit Durchstarten</button>
+                </div>
+            </div>
+
+
+        </div>
+        <div class="grid-item"></div>
+        <div class="grid-item"></div>
+        <div class="grid-item"></div>
+        <div class="grid-item"></div>
+    </div>
 </body>
+
 </html>
