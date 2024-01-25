@@ -26,12 +26,12 @@
                     <label>Neues habit hinzufügen:</label>
                 </div>
                 <div id="daytime-content-item">
-                    <button class="daytime-button" onclick="alerta()">☀️</button>
-                    <button class="daytime-button">🌙</button>
+                    <button class="daytime-button" id="daytime-button-day" onclick="alerta()">☀️</button>
+                    <button class="daytime-button" id="daytime-button-night">🌙</button>
                 </div>
 
                 <div id="select-content-item">
-                    <select>
+                    <select id="select-content">
                         <option value="lesen">Lesen!</option>
                         <option value="laufen">Laufen!</option>
                         <option value="rauchen">Rauchen!</option>
@@ -43,8 +43,6 @@
                     <button id="confirmButton">Mit habit Durchstarten</button>
                 </div>
             </div>
-
-
         </div>
         <div class="grid-item"></div>
         <div class="grid-item"></div>

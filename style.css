@@ -1,5 +1,5 @@
 body {
-    background-color: black;
+    background-color: rgb(0, 0, 0);
 }
 
 button {
@@ -8,12 +8,12 @@ button {
 
 .grid-container {
     display: grid;
-    grid-template-columns: auto 80% auto;
+    grid-template-columns: auto auto auto;
     padding: 5px;
 }
 
 .grid-item {
-    /* background-color: rgba(255, 255, 255, 0.8); */
+    /*background-color: rgba(255, 255, 255, 0.8); */
     border: 0px solid rgba(0, 0, 0, 0.8);
     padding: 20px;
     font-size: 30px;
@@ -25,7 +25,7 @@ button {
     background-color: #fff9db;
     border-radius: 15px;
     height: 800px;
-    width: 100%;
+    width: 475px;
     margin: 0%;
     border: 0px;
     padding: 0%;
@@ -38,33 +38,53 @@ button {
 }
 
 #content-grid-item {
-    /* background-color: #177e79; */
+    background-color: #177e79;
     margin: 0% 5% 0% 5%;
     border-radius: 15px;
     height: 78%;
 }
 
 #header-content-item {
-    background-color: chocolate;
+    background-color: rgb(98, 171, 231)
 }
 
 #daytime-content-item {
-    background-color: rgb(117, 57, 14);
-    height: 7%;
+    background-color: rgb(#e9ecef);
+    height: 13%;
 }
 
 #select-content-item {
     background-color: ghostwhite;
     height: 69%
 }
+
 #confirm-content-item {
-    background-color: red;
+    background-color: lightblue;
 }
+
 #confirmButton {
     height: 40px;
-    width: 340px;
+    width: 98%;
     border-radius: 20px;
 }
+
 .daytime-button {
-    border-radius: 50%;
+    height: 75%;
+    width: 49%;
+    margin-top: 2%;
+}
+
+#daytime-button-day {
+    border-start-start-radius: 75%;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 5px;
+
+}
+
+#daytime-button-night {
+    border-start-end-radius: 75%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 15px;
+    border-top-left-radius: 5px;
 }
