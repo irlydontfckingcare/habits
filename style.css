@@ -51,6 +51,7 @@ button {
 #daytime-content-item {
     background-color: rgb(#e9ecef);
     height: 13%;
+    width: 100%;
 }
 
 #select-content-item {
@@ -70,8 +71,9 @@ button {
 
 .daytime-button {
     height: 75%;
-    width: 49%;
+    width: 50%;
     margin-top: 2%;
+
 }
 
 #daytime-button-day {
@@ -79,7 +81,7 @@ button {
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 10px;
     border-top-right-radius: 5px;
-
+    margin-right: -1%; 
 }
 
 #daytime-button-night {
@@ -87,4 +89,5 @@ button {
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 15px;
     border-top-left-radius: 5px;
-}
+    margin-left: -1%;
+}   

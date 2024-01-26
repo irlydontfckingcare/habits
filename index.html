@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
+<body onload="init()">
     <div class="grid-container">
         <div class="grid-item"></div>
         <div class="grid-item"></div>
@@ -26,7 +26,7 @@
                     <label>Neues habit hinzufügen:</label>
                 </div>
                 <div id="daytime-content-item">
-                    <button class="daytime-button" id="daytime-button-day" onclick="alerta()">☀️</button>
+                    <button class="daytime-button" id="daytime-button-day">☀️</button>
                     <button class="daytime-button" id="daytime-button-night">🌙</button>
                 </div>
 
@@ -36,11 +36,11 @@
                         <option value="laufen">Laufen!</option>
                         <option value="rauchen">Rauchen!</option>
                         <option value="trinken">Trinken!</option>
-                        <option value="radfahren">Radfahren!</option>
+                        <option value="radfahren">Radfahren!🚴‍♂️</option>
                     </select>
                 </div>
                 <div id="confirm-content-item">
-                    <button id="confirmButton">Mit habit Durchstarten</button>
+                    <button id="confirmButton" onclick="alerta()">Mit habit Durchstarten</button>
                 </div>
             </div>
         </div>
