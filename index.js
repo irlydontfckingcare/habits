@@ -71,12 +71,27 @@ function setBackgroundColorOfElement(element, color) {
 }
 
 
-function alerta() {
-    alert("moin")
-    let habit = {
-        "key": 1,
-        "activity": "Laufen",
-        "day": true,
-    }
-    localStorage.setItem('01', JSON.stringify(habit));
+ function alerta() {
+
+     var e = document.getElementById("select-content");
+     var text = e.options[e.selectedIndex].text;
+
+     let habit = {
+         "activity": text,
+         "day": dayWasSelected,     
+     }
+
+     localStorage.setItem(Date.now(), JSON.stringify(habit));
+    
+
+    //  let temp = JSON.parse(localStorage.getItem('01'));
+    //  let d = temp.day;
+    //  let a = temp.activity;
+    //  console.log(temp + "2222");
+    //  console.log(d + "ddd");
+    //  console.log(a + "a");
+
 }
+
+  
+
